@@ -49,7 +49,7 @@
     "lint-css": "mate-scripts lint-css",
     "style-format": "mate-scripts style-format",
     "format": "mate-scripts format",
-    "cypress:run": "cypress run -l",
+    "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "test": "start-server-and-test start http://localhost:3001 cypress:run",
     "deploy": "gh-pages -d dist"
