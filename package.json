@@ -50,8 +50,9 @@
     "style-format": "mate-scripts style-format",
     "format": "mate-scripts format",
     "cypress:run": "cypress run",
+    "cypress:run:log": "cypress run --browser chrome",
     "cypress:open": "cypress open",
-    "test": "start-server-and-test start http://localhost:3001 cypress:run",
+    "test": "start-server-and-test start http://localhost:3001 cypress:run:log",
     "deploy": "gh-pages -d dist"
   },
   "browserslist": {
